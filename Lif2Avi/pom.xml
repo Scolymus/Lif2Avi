@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+		http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>org.scijava</groupId>
+		<artifactId>pom-scijava</artifactId>
+		<version>29.2.1</version>
+		<relativePath />
+	</parent>
+
+	<groupId>sc.fiji</groupId>
+	<artifactId>Lif2Avi</artifactId>
+	<version>1.0.0-SNAPSHOT</version>
+
+	<name>Lif2Avi</name>
+	<description>Plugin to export videos and images from Lif files.</description>
+	<url>https://github.com/Scolymus/Lif2Avi</url>
+	<inceptionYear>2021</inceptionYear>
+	<organization>
+		<name>Scolymus</name>
+		<url>[MY-ORGANIZATION-WEB-SITE]</url>
+	</organization>
+	<licenses>
+		<license>
+			<name>CC BY-NC-SA 4.0</name>
+			<url>https://creativecommons.org/licenses/</url>
+			<distribution>repo</distribution>
+		</license>
+	</licenses>
+
+	<developers>
+		<developer>
+			<id>Scolymus</id>
+			<name>Scolymus</name>
+			<url>https://imagej.net/User:[MY-IMAGEJ-WIKI-ACCOUNT]</url>
+		</developer>
+	</developers>
+	<contributors>
+		<contributor>
+			<name>None</name>
+		</contributor>
+	</contributors>
+
+	<mailingLists>
+		<mailingList>
+			<name>Image.sc Forum</name>
+			<archive>https://forum.image.sc/tags/imagej</archive>
+		</mailingList>
+	</mailingLists>
+
+	<scm>
+		<connection>scm:git:git://github.com/Scolymus/Lif2Avi</connection>
+		<developerConnection>scm:git:git@github.com:Scolymus/Lif2Avi</developerConnection>
+		<tag>HEAD</tag>
+		<url>https://github.com/Scolymus/Lif2Avi</url>
+	</scm>
+	<issueManagement>
+		<system>GitHub Issues</system>
+		<url>https://github.com/Scolymus/Lif2Avi/issues</url>
+	</issueManagement>
+	<ciManagement>
+		<system>None</system>
+	</ciManagement>
+
+	<properties>
+		<main-class>Lif2Avi</main-class>
+		<license.licenseName>CC BY-NC-SA 4.0</license.licenseName>
+		<license.copyrightOwners>N/A</license.copyrightOwners>
+		<license.projectName>Plugin to export videos and images from Lif files.</license.projectName>
+	</properties>
+
+	<repositories>
+		<repository>
+			<id>scijava.public</id>
+			<url>https://maven.scijava.org/content/groups/public</url>
+		</repository>
+	</repositories>
+
+	<dependencies>
+		<dependency>
+			<groupId>sc.fiji</groupId>
+			<artifactId>fiji</artifactId>
+		</dependency>
+	
+	</dependencies>
+</project>
